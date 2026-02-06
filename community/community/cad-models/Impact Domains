@@ -1,0 +1,118 @@
+3.0 IMPACT DOMAINS
+3.1 Terrestrial Impacts
+3.1.1 Soil Chemistry
+pH Impact: Neutral (±0.3 pH units) - calcium polyphosphate buffers to neutral
+
+Nutrient Loading: Equivalent to light fertilizer application (3-5 kg P/ha) - beneficial in fire-affected soils
+
+Metals/Contaminants: No heavy metals above detection limits (tested)
+
+Salinity: Negligible increase (<10 µS/cm)
+
+Microbial Impact: Transient shift (7-14 days) to phosphate-degrading microbes, returns to baseline
+
+3.1.2 Vegetation Impacts
+Direct Coating: Gel adheres but allows 85-90% PAR transmission
+
+Gas Exchange: CO₂/O₂ exchange reduced by 15-20% for 24-48 hours
+
+Long-term Effects: No phytotoxicity observed at 2× field concentration
+
+Seed Germination: No inhibition at field rates; slight enhancement in some species
+
+3.2 Aquatic Impacts
+3.2.1 Surface Water Protection Protocol
+text
+MANDATORY SETBACK ZONES:
+┌──────────────────────┬─────────────┬────────────────────────────┐
+│ Water Body Type      │ Setback     │ Justification              │
+├──────────────────────┼─────────────┼────────────────────────────┤
+│ Perennial Streams    │ 300m        │ Prevent direct deposition  │
+│ Lakes/Ponds (>1 ha)  │ 300m        │ Avoid eutrophication risk  │
+│ Ephemeral Streams    │ 100m        │ Seasonal flow protection   │
+│ Wetlands             │ 200m        │ Sensitive habitat buffer   │
+│ Riparian Zones       │ 150m        │ Transition zone protection │
+└──────────────────────┴─────────────┴────────────────────────────┘
+3.2.2 Worst-case Scenario Analysis
+Assuming accidental direct water impact:
+
+Acute Toxicity: LC50 >100 mg/L for all aquatic test species
+
+Eutrophication Potential: 12kg phosphate per unit = equivalent to 0.2 ha agricultural runoff
+
+Oxygen Demand: BOD5 = 150 mg/L (moderate, dissipates in 5-7 days)
+
+Mitigation: Rapid dilution (1:1000 in 1 hour in flowing water)
+
+3.3 Atmospheric Impacts
+3.3.1 Blast Effects
+Overpressure: <0.5 psi at 100m, <0.1 psi at 500m
+
+Noise: 125 dB at 100m (equivalent to jet takeoff)
+
+Duration: <1 second impulse
+
+Shockwave Propagation: Ground-level only, no stratospheric effects
+
+3.3.2 Particulate Matter
+PM10 Generation: 0.5-1.0 kg per unit (soil/organic dust)
+
+Dispersion: Within 30 minutes at wind speed >2 m/s
+
+Chemical Composition: Soil minerals + biodegradable polymers
+
+3.3.3 Greenhouse Gas Emissions
+text
+COMPARATIVE CARBON FOOTPRINT (per hectare treated):
+┌──────────────────────┬────────────┬─────────────┬──────────────┐
+│ Method               │ CO2e (kg)  │ Aircraft    │ Sorties      │
+├──────────────────────┼────────────┼─────────────┼──────────────┤
+│ BAVER System         │ 850        │ 0.5         │ 1            │
+│ Water (helicopter)   │ 3,200      │ 4.0         │ 8            │
+│ Retardant (MAFFS)    │ 2,800      │ 3.5         │ 7            │
+│ Ground Crew          │ 1,500      │ 0           │ NA           │
+└──────────────────────┴────────────┴─────────────┴──────────────┘
+Note: 70% reduction vs. conventional aerial methods
+
+3.4 Biological Impacts
+3.4.1 Fauna (Terrestrial)
+Direct Blast Risk: Limited to <50m radius (no deployment in occupied areas)
+
+Noise Disturbance: Temporary displacement (<24 hours) within 500m
+
+Habitat Modification: Gel degrades before significant habitat alteration
+
+Food Chain Effects: No biomagnification potential
+
+3.4.2 Avian Specific Assessment
+In-flight Collision Risk: Equivalent to other aerial operations
+
+Nesting Disruption: No deployment within 1km of known raptor nests
+
+Acute Stress: Comparable to thunderstorm exposure
+
+3.4.3 Soil Biota
+Microbial Communities: Transient shift, recovery within 14 days
+
+Earthworms/Arthropods: No mortality at field concentrations
+
+Root Zone Effects: No penetration beyond top 5cm soil layer
+
+3.4.4 Sensitive/Protected Species Protocol
+text
+SPECIES-SPECIFIC PROTECTIONS:
+1. California Condor (Gymnogyps californianus)
+   - No deployment within 5km of nesting sites
+   - No deployment during breeding season (Jan-July)
+   
+2. Spotted Owl (Strix occidentalis)
+   - 1km buffer from known territories
+   - Night operations prohibited in habitat
+   
+3. Desert Tortoise (Gopherus agassizii)
+   - Visual survey required within 100m
+   - No deployment if tortoise observed
+   
+4. Salmonid Streams
+   - 500m buffer during spawning season
+   - Downwind drift monitoring required
