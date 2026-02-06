@@ -1,0 +1,100 @@
+ BAVER_Unit_Spherical_v1.step 
+BAVER Unit: CAD Specification & Internal Construction Guide
+1.0 Unit Overview
+Core Specifications
+Designation: BAVER-45 (Blast-Activated Viscous Elastic Retardant - 45kg)
+
+Form Factor: Spherical with ogive (tapered) nose section
+
+Diameter: 400 mm (15.7 inches)
+
+Height: 420 mm (with nose)
+
+Total Mass: 45.0 kg (99.2 lbs)
+
+Payload Mass: 30.0 kg (66.1 lbs) - Gel components
+
+Structural/Dispersal Mass: 15.0 kg (33.1 lbs)
+
+Density: ~0.75 g/cm³ (will float if water entry occurs)
+
+2.0 Materials Specification
+2.1 Shell Components
+Component	Material	Thickness	Purpose	Environmental Note
+Main Body	Molded cellulose pulp + PLA binder composite	8 mm	Biodegradable, impact resistant	Decomposes in 3-6 months in soil
+Internal Liner	Food-grade silicone coating	0.5 mm	Moisture barrier, chemical inert	Non-toxic, prevents component interaction
+Nose Cone	PLA with bamboo fiber reinforcement	6 mm	Aerodynamic stability	Higher strength for impact zone
+Fins (4x)	PLA with flax fiber	4 mm	Stabilization during descent	Biodegradable composite
+2.2 Internal Components
+Component	Material	Specification	Purpose
+Central Dispersal Charge	PETN (Pentaerythritol tetranitrate)	75 grams, molded disk	Low-yield explosive for dispersion
+Membranes (6x)	Seaweed-based alginate film	0.2 mm thickness	Ruptures at 50 psi to mix components
+Internal Baffles	Cornstarch-based bioplastic	2 mm, honeycomb structure	Component separation pre-detonation
+Fuze Housing	PEEK (Polyether ether ketone)	Machined, IP67 rated	High-temp, waterproof electronics housing
+
+
+3.0 Internal Construction - CAD Assembly Guide
+3.1 Section View (Cutaway) Description
+From center outward:
+
+text
+1. CENTRAL CORE (30mm diameter)
+   ├── MEMS Fuze Assembly
+   │   ├── IMU (Inertial Measurement Unit)
+   │   ├── Barometric altimeter
+   │   ├── Safe/Arm mechanism
+   │   └── RF shielding cage
+   ├── PETN Dispersal Charge (75g, disk-shaped)
+   └── Detonator leads (energized at 20m AGL)
+
+2. LIQUID CHAMBER (Radial Sections - "Orange Wedges")
+   ├── 6 sealed compartments (each 5.0kg capacity)
+   ├── Contains: Water + Fluorine-free Class A foam + preservative
+   ├── Lined with alginate rupture membranes
+   └── Pressurized to 30 psi with nitrogen for rapid expansion
+
+3. DRY POWDER MATRIX (Between liquid wedges)
+   ├── Calcium polyphosphate (40% - 12.0kg total)
+   ├── Carboxymethyl cellulose hydrogel powder (15% - 4.5kg)
+   ├── Fumed silica thixotropic agent (5% - 1.5kg)
+   └── Pre-mixed, free-flowing powder
+
+4. SHELL & STRUCTURAL ELEMENTS
+   ├── Molded pulp/PLA composite shell (8mm)
+   ├── Food-grade silicone inner liner (0.5mm)
+   ├── External groove pattern for aerodynamic spin
+   └── 4 biodegradable PLA/flax fins (120° apart)
+3.2 Key CAD Features to Model
+1. Biodegradable Shell Pattern:
+
+text
+External surface should show:
+- Hexagonal dimple pattern (10mm across flats) for:
+  a) Aerodynamic boundary layer control
+  b) Controlled fracture points during dispersal
+  c) Increased surface area for biodegradation
+- Four fin slots (90° spacing)
+- Mating flange for nose cone (threaded PLA insert)
+2. Internal "Orange Wedge" Baffle System:
+
+text
+Model six radial compartments:
+- Each wedge: 60° arc, extending from 50mm radius to 190mm radius
+- Separated by cornstarch bioplastic baffles (2mm thick)
+- Each contains spherical bulge (for liquid expansion) and flat rupture membrane facing center
+3. Nose Cone Assembly:
+
+text
+- Ogive shape: 100mm height, 0.5 caliber radius
+- Contains:
+  * Radar altimeter antenna window (clear PLA section)
+  * GPS patch antenna (if included for tracking)
+  * Frangible impact cap (breaks away on ground contact)
+- Threads onto main body (M300x4 thread, 30mm engagement)
+4. Fin Design:
+
+text
+- 4 fins, 60mm height, 80mm root chord, 40mm tip chord
+- 5° cant angle for induced spin (200-400 RPM in descent)
+- Snap-fit attachment to shell grooves
+- Made from PLA with 20% flax fiber for stiffness
