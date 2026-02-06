@@ -1,0 +1,25 @@
+1. documents/Technical_Specification_SHEET.md:
+
+markdown
+# BAVER Technical Specification Sheet
+
+## Unit Specifications
+- **Diameter:** 30 cm
+- **Weight (total):** 45 kg (30 kg payload + 15 kg structure/dispersal)
+- **Coverage Area:** 0.8 - 1.2 hectares (at 20m burst altitude)
+- **Gel Thickness:** 1.5 - 3.0 mm (target)
+- **Persistence:** 4-12 hours (depending on ambient temperature/humidity)
+- **Shelf Life:** 24 months (with preservative)
+
+## Deployment Specifications
+- **Aircraft Compatibility:** C-130/L-188 (palletized), UAV pods (custom)
+- **Release Altitude:** 300-500m AGL
+- **Burst Altitude:** 10-30m AGL (programmable)
+- **Cluster Size:** 50 units/pallet (C-130), 6 units/pod (heavy UAV)
+- **Effective Sortie:** One C-130 sortie = 4 pallets = 200 units = ~200 hectares treated
+
+## Safety Specifications
+- **Minimum Safe Distance:** 500m (personnel), 300m (unmanned assets)
+- **Water Setback:** Mandatory 300m from mapped water bodies
+- **Biodegradation Timeline:** Shell: 3-6 months; Gel: 1-4 months (soil dependent)
+- **Storage:** Class 1.4S explosive (compatible with standard retardant facilities)
