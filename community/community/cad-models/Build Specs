@@ -1,0 +1,77 @@
+5.0 Manufacturing Considerations
+5.1 Assembly Process:
+text
+1.  Mold pulp/PLA shell halves (injection molding)
+2.  Apply food-grade silicone liner (spray coating)
+3.  Install baffle system (snap-fit assembly)
+4.  Load dry powder matrix (automated filling)
+5.  Fill liquid compartments (through fill ports)
+6.  Pressurize with nitrogen (to 30 psi)
+7.  Install central dispersal charge & fuze
+8.  Seal nose cone (threaded/tamper-evident)
+9.  Attach fins (snap-fit, biodegradable adhesive)
+10. Quality check: X-ray for voids, weight, fuze test
+5.2 Cost Estimate (High Volume):
+Shell & structural: $120
+
+Chemical payload: $280
+
+Dispersal charge & fuze: $350
+
+Assembly & testing: $150
+
+Total Unit Cost: ~$900 (at 10,000 unit production)
+
+6.0 CAD File Requirements
+6.1 Deliverable Formats:
+STEP (.stp) - For engineering collaboration
+
+STL (.stl) - For 3D printing prototypes
+
+IGES (.igs) - Legacy CAD compatibility
+
+Parasolid (.x_t) - For simulation software
+
+6.2 Recommended CAD Software:
+Free/Open Source: FreeCAD, OpenSCAD, Blender (for visualization)
+
+Professional: SolidWorks, Fusion 360, CATIA, NX
+
+6.3 Assembly Tree Structure:
+text
+BAVER_45_Assembly/
+├── 01_SHELL/
+│   ├── Shell_Lower_Half.SLDPRT
+│   ├── Shell_Upper_Half.SLDPRT
+│   └── Silicone_Liner.SLDPRT
+├── 02_INTERNAL/
+│   ├── Baffle_System.SLDPRT (x6 wedges)
+│   ├── Liquid_Chamber.SLDPRT (x6)
+│   └── Powder_Matrix_Cavity.SLDPRT
+├── 03_NOSE/
+│   ├── Nose_Cone.SLDPRT
+│   ├── Altimeter_Window.SLDPRT
+│   └── Impact_Cap.SLDPRT
+├── 04_FINS/
+│   └── Fin_Assembly.SLDPRT (x4)
+├── 05_FUZE/
+│   ├── Fuze_Housing.SLDPRT
+│   ├── PETN_Charge.SLDPRT
+│   └── MEMS_Assembly.SLDPRT
+└── BAVER_FULL_ASSEMBLY.SLDASM
+7.0 Critical Dimensions for Modeling
+All dimensions in millimeters:
+
+text
+Overall Diameter: 400.0 ± 2.0
+Overall Height: 420.0 ± 3.0
+Shell Thickness: 8.0 ± 0.5
+Liquid Chamber Volume (each): 4850 ± 50 ml
+Central Core Diameter: 30.0 ± 0.5
+Fin Root Chord: 80.0 ± 1.0
+Fin Tip Chord: 40.0 ± 1.0
+Fin Height: 60.0 ± 0.5
+Fin Cant Angle: 5.0° ± 0.5°
+Nose Cone Radius: 200.0 (0.5 caliber ogive)
+Thread Engagement: 30.0 ± 0.2 (M300x4)
+Rupture Membrane Thickness: 0.2 ± 0.05
